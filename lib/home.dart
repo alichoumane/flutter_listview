@@ -38,10 +38,10 @@ class ShowItems extends StatelessWidget {
         itemBuilder: (context, index){
           return Column(children: [
             const SizedBox(height: 10),
-            SizedBox(width: width * 0.28,
-              child:Text(items[index].toString(), style: const TextStyle(fontSize: 18)),
-            ),
-          const SizedBox(height: 10)
+            Text(items[index].toString(), style: const TextStyle(fontSize: 18)),
+            const SizedBox(height: 10),
+            Image.network(items[index].image, height: width*0.3,),
+            const SizedBox(height: 10),
           ]);
         });
   }
