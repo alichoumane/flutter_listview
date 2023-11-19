@@ -1,3 +1,4 @@
 # i3350_project5
 
-ListView of items with network images
+This is the full app. 
+It constains a ListView of items with network images and Tooltip actions.
