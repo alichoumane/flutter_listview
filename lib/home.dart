@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Menu"),
         centerTitle: true,
+        backgroundColor: Colors.blue,
       ),
       body: ShowItems(),
     );
