@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Text('Total Price: \$$_sum'),
           centerTitle: true,
+          backgroundColor: Colors.blue,
           actions: [
             IconButton(
                 onPressed: () {
